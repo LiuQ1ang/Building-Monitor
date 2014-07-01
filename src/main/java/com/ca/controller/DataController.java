@@ -34,10 +34,4 @@ public class DataController {
 	public void ConvertPort(String senid,HttpServletRequest request) {
         request.getSession().setAttribute("lastid",senid);
 	}
-	
-	@At("ConvertPort")
-	@Ok("jsp:admin.index")
-	public void historyData(){
-		
-	}
 }
