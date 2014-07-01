@@ -9,6 +9,9 @@ import org.nutz.mvc.annotation.Ok;
 import com.ca.pojo.Data;
 import com.ca.service.DataService;
 
+/**
+ * @author liuzhilong<alexmaven@icloud.com>
+ */
 @InjectName("dataController")
 public class DataController {
 	private DataService dataService;

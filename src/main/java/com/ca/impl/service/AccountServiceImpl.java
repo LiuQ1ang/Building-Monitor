@@ -8,6 +8,9 @@ import org.nutz.service.NameEntityService;
 import com.ca.pojo.User;
 import com.ca.service.AccountService;
 
+/**
+ * @author liuzhilong<alexmaven@icloud.com>
+ */
 public class AccountServiceImpl extends NameEntityService<User> implements AccountService{
 
 	public boolean login(User user) {

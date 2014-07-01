@@ -4,6 +4,9 @@ import java.util.List;
 
 import com.ca.pojo.User;
 
+/**
+ * @author liuzhilong<alexmaven@icloud.com>
+ */
 public interface AccountService {
 	public boolean login(User user);
 	public User SelUserByUser(User user);
