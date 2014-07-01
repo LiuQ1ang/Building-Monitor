@@ -16,6 +16,11 @@ import com.ca.service.DataService;
 public class DataController {
 	private DataService dataService;
 	
+	/**
+	 * @param senid 传感器编号
+	 * @param request
+	 * @return
+	 */
 	@At("GetData")
 	@Ok("raw:json")
 	public String GetData(String senid,HttpServletRequest request) {
