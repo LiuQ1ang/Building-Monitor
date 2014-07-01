@@ -2,6 +2,9 @@ package com.ca.pojo;
 
 import org.nutz.dao.entity.annotation.*;
 
+/**
+ * @author liuzhilong<alexmaven@icloud.com>
+ */
 @Table("t_user")
 public class User {
 	@Id

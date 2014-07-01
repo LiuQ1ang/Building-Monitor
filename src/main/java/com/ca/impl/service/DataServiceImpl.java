@@ -8,6 +8,9 @@ import org.nutz.service.NameEntityService;
 import com.ca.pojo.Data;
 import com.ca.service.DataService;
 
+/**
+ * @author liuzhilong<alexmaven@icloud.com>
+ */
 public class DataServiceImpl extends NameEntityService<Data> implements DataService{
 
 	public Data SelDataById(int id) {

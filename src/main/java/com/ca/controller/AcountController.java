@@ -11,6 +11,9 @@ import org.nutz.mvc.view.JspView;
 import com.ca.pojo.User;
 import com.ca.service.AccountService;
 
+/**
+ * @author liuzhilong<alexmaven@icloud.com>
+ */
 @InjectName("acountController")
 public class AcountController {
 	private AccountService accountService;

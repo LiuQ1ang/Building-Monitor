@@ -4,6 +4,9 @@ import org.nutz.dao.entity.annotation.Column;
 import org.nutz.dao.entity.annotation.Id;
 import org.nutz.dao.entity.annotation.Table;
 
+/**
+ * @author liuzhilong<alexmaven@icloud.com>
+ */
 @Table("t_data")
 public class Data {
 	@Id
