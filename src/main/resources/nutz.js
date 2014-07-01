@@ -8,7 +8,7 @@ var ioc = {
 			driverClassName : "com.mysql.jdbc.Driver",
 			url : "jdbc:mysql://localhost:3306/buildingmonitor",
 			username : "root",
-			password : "kismet"
+			password : "root"
 		}
 	},
 	dao : {  
